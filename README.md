@@ -10,7 +10,7 @@ This simulation requires the installation of ROS2 galactic.
 
 ## Installation and use instructions:
 To install the project, you can directly use the following command in your terminal:
-`git clone `
+`git clone https://github.com/MartinaGermani/SOFAR_Assignment.git`
 
 
 To execute the project, it must execute the following commands on two different terminals:
