@@ -5,7 +5,7 @@ For doing that, first of all I installed the Nav2 project [1], which can be used
 In particular, the simulation that I had to implement is commonly called "following dynamic point" maintaining a fixed distance, and I found a tutorial about it [2], which I adapted and analyzed appropriately. 
 
 The simulation is based on the behavior tree `follow_point.xml`, which sets the behavior of the robot (`turtlebot3_waffle`) in the environment (`turtlebot3_world`), and whose scheme is shown below.
-
+![alt text](https://github.com/MartinaGermani/SOFAR_Assignment/blob/main/follow_point.png?raw=true)
 
 
 ## Development environment requirements:
