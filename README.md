@@ -34,3 +34,5 @@ To execute the project, you must execute the following commands on two different
 [1] https://navigation.ros.org/
 
 [2] https://navigation.ros.org/tutorials/docs/navigation2_dynamic_point_following.html#tutorial-steps
+
+[3] S. Macenski, F. Martín, R. White, J. Clavero. The Marathon 2: A Navigation System. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2020.
