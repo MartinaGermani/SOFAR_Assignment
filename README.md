@@ -15,6 +15,8 @@ So, as you can see in the scheme:
 
 Instead, for sending the update goals to Nav2, I used the `clicked point` button, which allows to publish the coordinates of the goal in the /clicked_point topic, that are sended to the behavior tree to the cpp file `clicked_point_to_pose`.
 
+As launch file, which contains the configuration of the system (program to run, environments, arguments etc), I used `tb3_simulation_launch.py` in the `nav2_bringup` package of Nav2.
+
 ## Development environment requirements:
 This simulation requires the installation of ROS2 galactic.
 
