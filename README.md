@@ -1,4 +1,3 @@
-<pre>
 # SOFAR's ASSIGNMENT
 The goal of this assignment is to build a simulation with ROS2 in which a robot follows a moving target at a fixed distance.
 
@@ -15,6 +14,7 @@ To install the project, you can directly use the following command in your termi
 
 
 To execute the project, it must execute the following commands on two different terminals:
+<pre>
 `ros2 run nav2_test_utils clicked_point_to_pose`
 `ros2 launch nav2_bringup tb3_simulation_launch.py`
 
