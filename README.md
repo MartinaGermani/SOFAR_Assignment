@@ -4,7 +4,7 @@ The goal of this assignment is to build a simulation with ROS2 in which a robot 
 For doing that, first of all I installed the Nav2 project [1], which can be used in ROS2 whenever you have to deal with applications concerning the navigation of robots in the environment.
 In particular, the simulation that I had to implement is commonly called "following dynamic point" maintaining a fixed distance, and I found a tutorial about it [2], which I adapted and analyzed appropriately. 
 
-The environment and the robot used in the simulation are rispectively `turtlebot3_world` and `turtlebot3_waffle`
+The simulation is based on the behavior tree `follow_point.xml`, which sets the behavior of the robot in the environment. In particular, the environment and the robot used in the simulation are rispectively `turtlebot3_world` and `turtlebot3_waffle`.
 
 
 ## Development environment requirements:
