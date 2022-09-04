@@ -10,12 +10,15 @@ This simulation requires the installation of ROS2 galactic.
 
 ## Installation and use instructions:
 To install the project, you can directly use the following command in your terminal:
+
 `git clone https://github.com/MartinaGermani/SOFAR_Assignment.git`
 
 
 To execute the project, it must execute the following commands on two different terminals:
-<pre>
+
+
 `ros2 run nav2_test_utils clicked_point_to_pose`
+
+
 `ros2 launch nav2_bringup tb3_simulation_launch.py`
 
-</pre>
