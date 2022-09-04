@@ -14,7 +14,7 @@ To install the project, you can directly use the following command in your termi
 `git clone https://github.com/MartinaGermani/SOFAR_Assignment.git`
 
 
-To execute the project, it must execute the following commands on two different terminals:
+To execute the project, you must execute the following commands on two different terminals:
 
 
 `ros2 run nav2_test_utils clicked_point_to_pose`
