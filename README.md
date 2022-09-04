@@ -7,6 +7,11 @@ In particular, the simulation that I had to implement is commonly called "follow
 The simulation is based on the behavior tree `follow_point.xml`, which sets the behavior of the robot (`turtlebot3_waffle`) in the environment (`turtlebot3_world`), and whose scheme is shown below.
 ![alt text](https://github.com/MartinaGermani/SOFAR_Assignment/blob/main/follow_point.png?raw=true)
 
+So, as you can see in the scheme:
+- for following a moving target, it reprograms, with a rate of 1 Hz, a new path to pose and it sends it to the controller,
+- for updating the dynamic target that the robot is following, the `GoalUpdater` node takes as input the current goal and it subscribes it to the topic /goal_update,
+- for maintaining the robot at a desired distance from the goal, the action node `TruncatePath` allows to stay at a certain distance from the target, 
+- the control node `KeepRunningUntilFailure` allows to control if there are failures in the path since in that case it stops to move, 
 
 ## Development environment requirements:
 This simulation requires the installation of ROS2 galactic.
