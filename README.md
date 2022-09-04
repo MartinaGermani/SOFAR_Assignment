@@ -11,7 +11,7 @@ So, as you can see in the scheme:
 - for following a moving target, it reprograms, with a rate of 1 Hz, a new path to pose and it sends it to the controller,
 - for updating the dynamic target that the robot is following, the `GoalUpdater` node takes as input the current goal and it subscribes it to the topic /goal_update,
 - for maintaining the robot at a desired distance from the goal, the action node `TruncatePath` allows to stay at a certain distance from the target, 
-- the control node `KeepRunningUntilFailure` allows to control if there are failures in the path since in that case it stops to move, 
+- the control node `KeepRunningUntilFailure` allows to control if there are failures in the path since in that case it stops to move.
 
 Instead, for sending the update goals to Nav2, I used the `clicked point` button, which allows to publish the coordinates of the goal in the /clicked_point topic, that are sended to the behavior tree to the cpp file `clicked_point_to_pose`.
 
