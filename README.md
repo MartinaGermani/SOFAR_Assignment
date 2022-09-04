@@ -13,6 +13,8 @@ So, as you can see in the scheme:
 - for maintaining the robot at a desired distance from the goal, the action node `TruncatePath` allows to stay at a certain distance from the target, 
 - the control node `KeepRunningUntilFailure` allows to control if there are failures in the path since in that case it stops to move, 
 
+Instead, for sending the update goals to Nav2, I used the `clicked point` button, which allows to publish the coordinates of the goal in the /clicked_point topic, that are sended to the behavior tree to the cpp file `clicked_point_to_pose`.
+
 ## Development environment requirements:
 This simulation requires the installation of ROS2 galactic.
 
