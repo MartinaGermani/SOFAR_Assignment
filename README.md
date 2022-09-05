@@ -18,7 +18,8 @@ Instead, for sending the update goals to Nav2, I used the `clicked point` button
 As launch file, which contains the configuration of the system (program to run, environments, arguments etc), I used `tb3_simulation_launch.py` in the `nav2_bringup` package of Nav2.
 
 ## Development environment requirements:
-This simulation requires the installation of ROS2 galactic.
+This simulation requires the full installation of ROS2 galactic, that you can install by following the steps here https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html).
+
 
 ## Installation and use instructions:
 To install the project, you can directly use the following command in your terminal:
