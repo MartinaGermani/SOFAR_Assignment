@@ -21,11 +21,13 @@ As launch file, which contains the configuration of the system (program to run, 
 ## Development environment requirements
 This simulation requires the full installation of ROS2 galactic, that you can install by following the steps here https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html).
 
+Install also the Nav2 workspace at the following link https://navigation.ros.org/build_instructions/index.html.
+
 ## Installation and use instructions
-To install the project, first of all you have to install the Nav2 workspace at the following link https://navigation.ros.org/build_instructions/index.html. 
+If you haven't already, first of all you have to install the Nav2 workspace at the following link https://navigation.ros.org/build_instructions/index.html. 
 Then:
-- replace the nav2_bringup and nav2_bt_navigator packages with the ones I modified inside the navigation2 package,
-- clone the nav2_test_utilis package inside the Nav2 workspace. 
+- replace the `nav2_bringup` and `nav2_bt_navigator` packages with the ones I modified inside the navigation2 package,
+- clone the `nav2_test_utilis` package inside the Nav2 workspace. 
 
 Before to build the environment with the `colcon build` ROS2 command, remember to modify the path for the parameter `default_nav_to_pose_bt_xml` inside `nav2_params.yaml`, that you can find in nav2_ws -> src -> navigation2 -> nav2_bringup -> bringup -> params. 
 
