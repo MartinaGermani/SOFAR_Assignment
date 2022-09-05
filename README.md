@@ -22,9 +22,7 @@ As launch file, which contains the configuration of the system (program to run, 
 This simulation requires the full installation of ROS2 galactic, that you can install by following the steps here https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html).
 
 ## Installation and use instructions
-To install the project, you can directly use the following command in your terminal:
-
-`git clone https://github.com/MartinaGermani/SOFAR_Assignment.git`
+To install the project, first of all you have to install the Nav2 project at the following link 
 
 Before to build the environment with the `colcon build` ROS2 command, remember to modify the path for the parameter `default_nav_to_pose_bt_xml` inside `nav2_params.yaml`, that you can find in nav2_ws -> src -> navigation2 -> nav2_bringup -> bringup -> params. 
 
