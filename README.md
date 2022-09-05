@@ -21,7 +21,7 @@ As launch file, which contains the configuration of the system (program to run, 
 ## Development environment requirements
 This simulation requires the full installation of ROS2 galactic, that you can install by following the steps here https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html).
 
-Install also the Nav2 workspace at the following link https://navigation.ros.org/build_instructions/index.html.
+Install also the Nav2 workspace at the following link https://navigation.ros.org/build_instructions/index.html (due to size reasons I was unable to upload it here).
 
 ## Installation and use instructions
 If you haven't already, first of all you have to install the Nav2 workspace at the following link https://navigation.ros.org/build_instructions/index.html. 
