@@ -25,6 +25,7 @@ To install the project, you can directly use the following command in your termi
 
 `git clone https://github.com/MartinaGermani/SOFAR_Assignment.git`
 
+Before to build the environment with the `colcon build` ROS2 command, remember to modify the path for the parameter `default_nav_to_pose_bt_xml` inside `nav2_params.yaml`, that you can find in nav2_ws -> src -> navigation2 -> nav2_bringup -> bringup -> params. 
 
 To execute the project, you must execute the following commands on two different terminals:
 
