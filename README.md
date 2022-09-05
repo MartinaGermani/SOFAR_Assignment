@@ -21,7 +21,6 @@ As launch file, which contains the configuration of the system (program to run, 
 ## Development environment requirements
 This simulation requires the full installation of ROS2 galactic, that you can install by following the steps here https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html).
 
-
 ## Installation and use instructions
 To install the project, you can directly use the following command in your terminal:
 
@@ -38,8 +37,8 @@ To execute the project, you must execute the following commands on two different
 `ros2 launch nav2_bringup tb3_simulation_launch.py`
 
 ## Status of the project
-In the current state of implementation, the robot will follow the moving target as long as the distance between the two is greater than 1 meter. Therefore a future development could be to have the robot and the target move simultaneously, so that the distance between them is constant.In fact, a limit of this implementation is precisely that the robot tries to remain at a fixed distance from the target, but the target itself can totally change position in the environment at any time with only one click. 
-
+In the current state of implementation, the robot will follow the moving target as long as the distance between the two is greater than 1 meter. Therefore a future development could be to have the robot and the target move simultaneously, so that the distance between them is constant. In fact, a limit of this implementation is precisely that the robot tries to remain at a fixed distance from the target, but the target itself can totally change position in the environment at any time with only one click. 
+Another limit of this implementatio is that, since the new position of the target is determined with only one click, the robot and the moving target don't follow exactly the same path; so a future development could make sure that between one click and the next the user with the movement of the mouse creates a path, which will then be followed by the robot.
 
 ## Reference
 [1] https://navigation.ros.org/
